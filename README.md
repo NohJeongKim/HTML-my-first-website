@@ -1,4 +1,4 @@
-### HTML HYPER: TEXT MARKUP LANGUAGE
+### HTML: HYPER TEXT MARKUP LANGUAGE
 * ```태그 tag```: 시작 태그, 종료 태그, 웹 브라우저에 표시되는 내용
 * ```속성 attribute```: 태그 안에 추가되는 속성, 대표적인 것은 class, id 등
 * ```태그의 중첩 nesting tags```: 반드시 안에서 시작되면 안에서 끝나야 된다. 엇갈리면 안된다. 가끔 예외적으로 중첩이 안되는 태그들이 존재한다.
