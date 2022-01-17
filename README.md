@@ -5,4 +5,4 @@
 * ```빈태그 empty tag```: br, img src 등이 있다.
 * ```공백 space```: 1칸 이상의 공백은 무시한다. 심지어 개행 또한 무시한다.
 * ```주석 comment tag```: <!--주석을 적어준다.-->
-* ```\+ HTML DOCUMENT의 기본 구조```: doctype, html에서는 head와 body가 있다. 우리가 아는 대부분의 태그는 body에서 쓰이는 태그이다.
+* ```+ HTML DOCUMENT의 기본 구조```: doctype, html에서는 head와 body가 있다. 우리가 아는 대부분의 태그는 body에서 쓰이는 태그이다.
