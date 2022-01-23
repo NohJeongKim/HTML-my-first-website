@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>write diary</title>
+</head>
+
+<body>
+  <button type="button">
+    <a href="main.html">메인으로</a>
+  </button>
+  <h1>일기장 쓰기</h1>
+  <form action="diary.html" method="post">
+    <p><label>제목:</label>
+      <input type="text" size="50" placeholder="제목을 적어주세요."><br>
+    </p>
+    <p> <label>작성자:</label>
+      <input type="text" size="30" placeholder="작성자의 이름을 적어주세요."><br>
+    </p>
+    <p>
+      <label>비밀번호:</label>
+      <input type="password" placeholder="비밀번호를 적어주세요.">
+    </p>
+    <p>
+      <label>오늘의 기분을 고르시오:</label><br>
+      <input type="radio" name="mood" checked='checked'>매우 좋음<br>
+      <input type="radio" name="mood" checked='checked'>좋음<br>
+      <input type="radio" name="mood" checked='checked'>보통<br>
+      <input type="radio" name="mood" checked='checked'>나쁨<br>
+      <input type="radio" name="mood" checked='checked'>매우 나쁨<br>
+    </p>
+    <p>
+      <label>일기의 내용</label><br>
+      <textarea id="story" name="diary" rows="20" cols="100" placeholder="자신의 일기를 적어주세요."></textarea>
+    </p>
+    <p>
+      <button type="button">
+        일기 등록하기
+      </button>
+    </p>
+  </form>
+</body>
+
+</html>
